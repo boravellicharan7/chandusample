@@ -1,0 +1,227 @@
+body {
+    background-image: url("images/download\ \(1\).jpeg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Styling the Login Section */
+#loginSection {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px 8px rgb(70, 20, 20);
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 50px;
+  opacity: 0.7;
+  background: transparent;
+  color: rgb(70, 20, 20);
+}
+
+/* Styling the Login Form */
+#loginForm {
+  padding: 20px;
+  text-align: left;
+  color: rgb(70, 20, 20);
+  text-align: center;
+}
+
+#loginEmail,
+#loginPassword {
+  border: none;
+  border-radius: 10px;
+  height: 25px;
+  transition: transform 0.3s ease-in-out;
+  background: transparent;
+  color: rgba(245, 245, 245, 0.687);
+  padding: 10px;
+  color: rgb(70, 20, 20);
+  width: 100%;
+}
+
+#loginEmail:hover,
+#loginPassword:hover {
+  transform: scale(1.02);
+  background: transparent;
+}
+
+/* Eye Icon for Password Fields */
+.password-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.password-container .eye-icon {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  color: rgb(70, 20, 20);
+}
+
+/* Error and Success Messages */
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+  text-align: left;
+}
+
+.success {
+  color: green;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Login Button */
+#loginForm button[type="submit"] {
+  border-radius: 7px;
+  padding: 8px 20px;
+  color: wheat;
+  background-color: rgb(70, 20, 20);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+#loginForm button[type="submit"]:hover {
+  background-color: rgb(90, 25, 25);
+}
+
+/* Links */
+.link a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.link a:hover {
+  color: darkblue;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 400px) {
+  #loginSection {
+      margin-top: 50px;
+      width: 90%;
+  }
+}
+
+
+/* Styling the Register Section */
+#registerSection {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px 8px rgb(70, 20, 20);
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 50px;
+  opacity: 0.7;
+  background: transparent;
+  color: rgb(70, 20, 20);
+}
+
+/* Styling the Register Form */
+#registerForm {
+  padding: 20px;
+  text-align: left;
+  color: rgb(70, 20, 20);
+  text-align: center;
+}
+
+#registerEmail,
+#registerPassword,
+#confirmPassword {
+  border: none;
+  border-radius: 10px;
+  height: 25px;
+  transition: transform 0.3s ease-in-out;
+  background: transparent;
+  color: rgba(245, 245, 245, 0.687);
+  padding: 10px;
+  color: rgb(70, 20, 20);
+  width: 100%;
+}
+
+#registerEmail:hover,
+#registerPassword:hover,
+#confirmPassword:hover {
+  transform: scale(1.02);
+  background: transparent;
+}
+
+/* Eye Icon for Password Fields */
+.password-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.password-container .eye-icon {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  color: rgb(70, 20, 20);
+}
+
+/* Error and Success Messages */
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+  text-align: left;
+}
+
+.success {
+  color: green;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Register Button */
+#CreateAcc {
+  border-radius: 7px;
+  padding: 8px 20px;
+  color: wheat;
+  background-color: rgb(70, 20, 20);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+#CreateAcc:hover {
+  background-color: rgb(90, 25, 25);
+}
+
+/* Links */
+.link a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.link a:hover {
+  color: darkblue;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 400px) {
+  #registerSection {
+      margin-top: 50px;
+      width: 90%;
+  }
+}
